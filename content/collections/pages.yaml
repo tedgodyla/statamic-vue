@@ -1,7 +1,11 @@
 title: Pages
+template: app
+layout: app
+revisions: false
+route: '{parent_uri}/{slug}'
+sort_dir: asc
 structure:
   root: true
   tree:
     -
       entry: home
-route: '{parent_uri}/{slug}'

@@ -11,8 +11,9 @@ const mix = require('laravel-mix');
  */
 
 mix.js('resources/js/app.js', 'public/js')
+   .vue({ version: 3 });
 
-mix.postCss('resources/css/tailwind.css', 'public/css')
+mix.postCss('resources/css/app.css', 'public/css');
 
 if (mix.inProduction()) {
    mix.version();
@@ -30,4 +31,4 @@ if (mix.inProduction()) {
 
 mix.js('resources/js/cp.js', 'public/vendor/app/js');
 
-mix.postCss('resources/css/cp.css', 'public/vendor/app/css')
+mix.postCss('resources/css/cp.css', 'public/vendor/app/css');
