@@ -1,7 +1,10 @@
+### laravel ###
 /node_modules
 /public/hot
+/public/js
+/public/css
 /public/storage
-/public/vendor/statamic
+/public/mix-manifest.json
 /storage/*.key
 /vendor
 .env
@@ -13,3 +16,18 @@ Homestead.yaml
 npm-debug.log
 yarn-error.log
 .DS_Store
+
+### statamic ###
+/public/vendor/statamic
+/public/vendor/app
+
+### phpstorm ###
+/.idea
+
+### vscode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
