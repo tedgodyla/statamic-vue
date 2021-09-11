@@ -1,0 +1,31 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: facebook
+        field:
+          input_type: url
+          antlers: false
+          display: Facebook
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: instagram
+        field:
+          input_type: url
+          antlers: false
+          display: Instagram
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: linkedin
+        field:
+          input_type: url
+          antlers: false
+          display: LinkedIn
+          type: text
+          icon: text
+          listable: hidden

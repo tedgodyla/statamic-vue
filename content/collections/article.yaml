@@ -1,0 +1,13 @@
+title: Artikel
+template: app
+layout: app
+mount: 0d6f592a-d1f6-4e44-bb79-b6af3efb6952
+taxonomies:
+  - format
+revisions: false
+route: '{mount}/{slug}'
+date: true
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private

@@ -1,0 +1,19 @@
+title: Quote
+fields:
+  -
+    handle: source
+    field:
+      input_type: text
+      antlers: false
+      display: Bron
+      type: text
+      icon: text
+      listable: hidden
+  -
+    handle: quote
+    field:
+      antlers: false
+      display: Quote
+      type: textarea
+      icon: textarea
+      listable: hidden

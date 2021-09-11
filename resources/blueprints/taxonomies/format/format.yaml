@@ -1,13 +1,8 @@
-title: Landing
+title: Format
 sections:
   main:
     display: Main
     fields:
-      -
-        handle: template
-        field:
-          type: hidden
-          default: app
       -
         handle: title
         field:
@@ -15,8 +10,6 @@ sections:
           required: true
           validate:
             - required
-      -
-        import: content
   sidebar:
     display: Sidebar
     fields:
@@ -25,15 +18,5 @@ sections:
         field:
           type: slug
           required: true
-          localizable: true
           validate:
             - required
-      -
-        handle: parent
-        field:
-          type: entries
-          collections:
-            - pages
-          max_items: 1
-          listable: false
-          localizable: true

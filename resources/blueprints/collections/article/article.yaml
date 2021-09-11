@@ -1,0 +1,75 @@
+title: Artikel
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+          listable: true
+          input_type: text
+          antlers: false
+      -
+        handle: image
+        field:
+          mode: grid
+          restrict: false
+          allow_uploads: true
+          max_files: 1
+          display: Afbeelding
+          type: assets
+          icon: assets
+          listable: true
+      -
+        handle: description
+        field:
+          character_limit: '175'
+          antlers: false
+          display: Description
+          type: textarea
+          icon: textarea
+          listable: hidden
+      -
+        import: content
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          localizable: true
+          validate:
+            - required
+          listable: false
+          generate: true
+      -
+        handle: date
+        field:
+          type: date
+          required: true
+          validate:
+            - required
+          listable: false
+          mode: single
+          time_enabled: false
+          time_required: false
+          earliest_date: '1900-01-01'
+          full_width: false
+          inline: false
+          columns: 1
+          rows: 1
+      -
+        handle: format
+        field:
+          type: terms
+          taxonomies:
+            - format
+          display: Format
+          mode: select
+          listable: true

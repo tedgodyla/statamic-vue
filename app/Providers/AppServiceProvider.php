@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Statamic\Statamic;
+use App\Http\Resources\API\Resource;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -14,7 +15,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        Resource::mapDefaults();
     }
 
     /**

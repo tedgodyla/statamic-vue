@@ -1,10 +1,10 @@
 ---
 template: app
-title: Home
+title: 'Over ons'
 updated_by: c1deeaf3-cba5-4a84-875b-1b2d373d953f
-updated_at: 1613762107
-id: home
-blueprint: landing
+updated_at: 1614209771
+blueprint: default
+id: a15b07e6-d647-4681-9a9e-bbfe2023d2eb
 content:
   -
     type: paragraph

@@ -1,0 +1,18 @@
+title: Button
+fields:
+  -
+    handle: text
+    field:
+      input_type: text
+      antlers: false
+      display: Tekst
+      type: text
+      icon: text
+      listable: hidden
+  -
+    handle: link
+    field:
+      display: Link
+      type: link
+      icon: link
+      listable: hidden

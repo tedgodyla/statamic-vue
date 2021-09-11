@@ -4,12 +4,10 @@
 
 <script>
 export default {
+    name: 'Toast',
+
     props: {
         message: String,
     },
 };
 </script>
-
-<style>
-
-</style>

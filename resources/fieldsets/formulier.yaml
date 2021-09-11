@@ -1,0 +1,10 @@
+title: Formulier
+fields:
+  -
+    handle: form
+    field:
+      max_items: 1
+      display: Form
+      type: form
+      icon: form
+      listable: hidden

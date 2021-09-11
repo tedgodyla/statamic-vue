@@ -1,0 +1,26 @@
+title: CTA
+fields:
+  -
+    handle: title
+    field:
+      input_type: text
+      antlers: false
+      display: Titel
+      type: text
+      icon: text
+      listable: hidden
+  -
+    handle: text
+    field:
+      antlers: false
+      display: Tekst
+      type: textarea
+      icon: textarea
+      listable: hidden
+  -
+    handle: link
+    field:
+      display: Link
+      type: link
+      icon: link
+      listable: hidden

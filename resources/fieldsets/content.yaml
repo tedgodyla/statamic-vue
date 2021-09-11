@@ -1,0 +1,58 @@
+title: Content
+fields:
+  -
+    handle: content
+    field:
+      always_show_set_button: false
+      buttons:
+        - h2
+        - h3
+        - h4
+        - bold
+        - italic
+        - underline
+        - strikethrough
+        - unorderedlist
+        - orderedlist
+        - removeformat
+        - quote
+        - anchor
+        - table
+      save_html: false
+      toolbar_mode: fixed
+      link_noopener: false
+      link_noreferrer: false
+      target_blank: false
+      reading_time: false
+      fullscreen: true
+      allow_source: true
+      display: Content
+      type: bard
+      icon: bard
+      listable: hidden
+      sets:
+        quote:
+          display: Quote
+          fields:
+            -
+              import: quote
+        accordion:
+          display: Accordion
+          fields:
+            -
+              import: accordion
+        button:
+          display: Button
+          fields:
+            -
+              import: button
+        cta:
+          display: CTA
+          fields:
+            -
+              import: cta
+        form:
+          display: Formulier
+          fields:
+            -
+              import: formulier

@@ -9,3 +9,12 @@ structure:
   tree:
     -
       entry: home
+    -
+      entry: a15b07e6-d647-4681-9a9e-bbfe2023d2eb
+      children:
+        -
+          entry: ef284520-b104-403d-bbab-95429350ba50
+    -
+      entry: 0d6f592a-d1f6-4e44-bb79-b6af3efb6952
+    -
+      entry: 71471064-4ea8-4ff6-b44c-22c250a3a972

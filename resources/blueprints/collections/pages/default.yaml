@@ -16,11 +16,7 @@ sections:
           validate:
             - required
       -
-        handle: content
-        field:
-          type: markdown
-          display: Content
-          localizable: true
+        import: content
   sidebar:
     display: Sidebar
     fields:
